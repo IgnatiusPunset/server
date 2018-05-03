@@ -5,5 +5,5 @@ app=Flask(__name__)
 def web_server1():
 	return 'Web Server 1'
 if __name__=="__main__":
-	app.run(host='0.0.0.0',port=50000)
+	app.run(host='192.168.24.133',port=5000)
 
